@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <name>player Management System</name>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>player Management System</h1>
+
+    <div id="playerForm">
+      <h2>Add New player</h2>
+      <label for="name">name:</label>
+      <input type="text" id="name" placeholder="Enter name">
+
+      <label for="clubname">Clubname:</label>
+      <input type="text" id="clubname" placeholder="Enter Clubname">
+
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" placeholder="Enter salary">
+
+      <button onclick="addplayer()">Add player</button>
+    </div>
+
+    <h2>player List</h2>
+    <ul id="playerList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
